@@ -1,0 +1,307 @@
+body {
+    background: url(images/antoine-barres.jpg);
+}
+
+#ul {
+    display: flex;    
+}
+
+#ul li {
+    list-style: none;
+    text-decoration: none;
+    padding: 7px;
+    color: white;
+}
+
+#logo img {
+    width: 130px;
+}
+
+#signout {
+    text-align: right;
+    margin: 20px;
+}
+
+#signout a {
+    text-decoration: none;
+    font-size: 15px;
+}
+
+#logo {
+    margin: 20px;
+    background: orange;
+    width: 170px;
+    height: 170px;
+}
+
+#logo img {
+    padding: 20px;
+    transition: all 1s;
+}
+
+#logo img:hover {
+    transform: scale(1.05)
+}
+
+#rank {
+    text-align: center;
+    font-size: 30px;
+}
+
+#input {
+    text-align: center;
+    background: red;
+    width: 700px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+#input input {
+    padding: 9px;
+    width: 300px;
+    font-size: 14px;
+}
+
+#input button {
+    padding: 9px;
+    width: 150px;
+    font-size: 16px;
+    background: purple;
+    color: white;
+    border: none;
+}
+
+/* robot */
+#card {
+    background-image: url(images/daniel-olahh.jpg);
+    width: 300px;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    margin: 10px;
+    transition: all 1s;
+}
+
+#card a {
+    text-decoration: none;
+    color: white;
+}
+
+#card a:hover {
+    color: brown;
+}
+
+#card:hover {
+    transform: scale(1.04)
+}
+
+#list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#box {
+    text-align: center;
+}
+
+#scroll {
+    overflow-y: scroll;
+    height: 700px;
+}
+
+#signin {
+    text-align: center;
+}
+
+#signin article {
+    margin-top: 40px;
+}
+
+#signup {
+    text-align: center;
+}
+
+#back {
+    background-image: url(images/fabio-mangione.jpg);
+}
+
+/* decide */
+
+#container {
+    margin: 0 auto;
+    background: purple;
+    padding: 5px;
+    width: 600px;
+}
+
+#header {
+    background: rgb(56, 43, 34);
+    
+    color: white;
+    line-height: 13px;
+    text-align: center;
+    font-size: larger;
+    padding: 3px;    
+}
+
+#second {
+    margin-top: 10px;
+    display: flex;
+    background: orange;
+    justify-content: space-around;
+    height: 40px;
+}
+
+#second button {
+    height: 30px;
+    margin-top: 6px;
+    
+}
+
+#second p {
+    margin-top: 11px;
+    
+}
+
+#third {
+    background: green;
+    color: white;
+}
+
+#third li { 
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 3px;
+}
+
+#third li button {
+    margin-right: 40px;
+}
+
+#forth form {
+    margin-top: 5px;
+    background: pink;
+    padding: 10px;
+    text-align: center;
+}
+
+#forth input {
+    padding: 7px;
+}
+
+#forth button {
+    padding: 7px;
+    background: darkgreen;
+    border: none;
+    color: white;
+}
+
+/* count */
+
+#count {
+    text-align: center;
+}
+
+/* web */
+
+
+#web {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1100px;
+    margin: 0 auto;
+    background: black;
+    /* overflow-y: scroll;
+    height: 300px; */
+}
+
+.tile {
+    background: orange;
+    width: 250px;
+    height: 200px;
+    margin: 10px;
+}
+
+#features {
+    background: green;
+}
+
+#features h2 {
+    padding: 10px;
+    text-align: center;
+}
+
+#features li {
+    list-style: none;
+    padding: 5px;
+}
+
+#important {
+    padding: 10px;
+    text-align: center;
+}
+
+#important span {
+    font-size: 40px;
+}
+
+#todo {
+    padding: 5px;
+    background: red;
+}
+
+#todo li {
+    padding: 5px;
+}
+
+#img {
+    line-height: 3px;
+    padding: 10px;
+    background: white;
+}
+
+#img img {
+    width: 150px;
+    transition: all 1s;
+}
+
+#img img:hover {
+    transform: scale(1.04);
+}
+
+#img h2 {
+    text-align: right;
+}
+
+#table {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background: red;
+    width: 520px;
+}
+
+#table th{
+    line-height: 3px;
+    padding: 30px;
+    text-align: center;
+    border-bottom: 1px solid black; 
+}
+
+#table tbody th {
+    padding: 20px;
+}
+
+#santiago {
+    background-image: url(images/daniel-olahh.jpg);
+    background-size: contain;
+    color: white;
+    text-align: center;
+}
+
+#order {
+    padding: 5px;
+}
