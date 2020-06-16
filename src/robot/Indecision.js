@@ -32,7 +32,7 @@ class Indecision extends React.Component {
     }
 
     removeAll=()=>{
-        this.setState({options: this.setState.options.length=[]})
+        this.setState({options: this.setState.options=[]})
     }
 
     removeList=(i)=>{
